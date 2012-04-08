@@ -1,10 +1,12 @@
 <h1 class="left"><img class='logo' src='/images/ruby.png'/><a href="{{ root_url }}/">{{ site.title }}</a></h1>
 <nav class="menu left">{% include navigation.html %}</nav>
 <div class="right">
+  {% if false %}
 	<form class="search right" action="{{ site.simple_search }}" method="get">
 		<input class="left" type="text" name="q" results="0">
 		<input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}">
 	</form>
+	{% endif %}
 	<div class="social right">
 		{% if site.facebook_user %}
 		<a class="facebook" href="http://www.facebook.com/{{ site.facebook_user }}" title="Facebook">Facebook</a>
