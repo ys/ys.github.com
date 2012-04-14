@@ -11,6 +11,7 @@
         {% if site.disqus_short_name and post.comments == true and site.disqus_show_comment_count == true %}
         <span class="comments"><a href="{{ root_url }}{{ post.url }}#disqus_thread">Comments</a></span>
         {% endif %}
+        <div class="author">{% include post/author.html %}</div>
     </div>
 {% else %}
     <h1 class="title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
@@ -21,5 +22,6 @@
         {% if site.disqus_short_name and page.comments == true and site.disqus_show_comment_count == true %}
         <span class="comments"><a href="{{ root_url }}{{ post.url }}#disqus_thread">Comments</a></span>
         {% endif %}
+        <div class="author">{% include post/author.html %}</div>
     </div>
 {% endif %}

@@ -4,6 +4,7 @@ title: "resources"
 date: 2011-12-06 22:49
 comments: true
 categories: rails ruby resources
+author: Yannick Schutz
 ---
 
 ## A few links that might be useful for web development with ruby and ruby on rails

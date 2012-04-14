@@ -21,7 +21,7 @@
 			@include link-colors($gray02, $gray01);
 			@include transition(0.3s);
 		}
-		.date, .tags, .comments{
+		.date, .tags, .comments, .author{
 			padding-left: 30px;
 			@media screen and (max-width: 800px){
 				@include inline-block;
@@ -36,6 +36,9 @@
 		}
 		.comments{
 			background: image-url('comments.png') 0 center no-repeat;
+		}
+		.author{
+		  background: image-url('author.png') 0 center no-repeat;
 		}
 	}
 }

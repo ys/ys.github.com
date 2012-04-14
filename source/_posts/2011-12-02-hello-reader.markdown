@@ -4,6 +4,7 @@ title: "hello reader"
 date: 2011-12-02 22:48
 comments: true
 categories: misc
+author: Yannick Schutz
 ---
 
 Who the hell are you? Why are you blogging in 2011?

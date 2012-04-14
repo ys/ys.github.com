@@ -4,6 +4,7 @@ title: "Ajax long polling server in ruby"
 date: 2012-04-09 00:16
 comments: true
 categories: sinatra async ruby
+author: Yannick Schutz
 ---
 
 Just a quick post with two links I read today about how to make an ajax long polling server with sinatra and eventmachine

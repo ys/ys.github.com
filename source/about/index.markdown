@@ -11,4 +11,5 @@ footer: true
 * Currently working at [belighted](http://www.belighted.com)
 * In love with ruby and light frameworks
 * Uses Rails all day long
+* Analog photo lover
 * Don't hesitate to follow me on [twitter](http://twitter.com/yann_ck)!
