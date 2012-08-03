@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://ys.github.com
+url: http://eatcpcks.github.com
 title: Develop and eat cupcakes
 subtitle: Ruby hacker and Internets citizen
 author: Yannick Schutz
@@ -58,7 +58,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 
 # Github repositories
-github_user: ys
+github_user: eatcpcks
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
