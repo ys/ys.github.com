@@ -9,7 +9,7 @@ Hello people!
 
 Today I wanted to share with you a small thing I made quickly today to help me later.
 
-I made a [github repository](http://github.com/eatcpcks/sinatra_skeleton) with a default sinatra app.
+I made a [github repository](http://github.com/ys/sinatra_skeleton) with a default sinatra app.
 
 It has everything you need to bootstrap a sinatra project.
 I had to start a project last week and i thougt it would be great to extract what I learned from that one.
