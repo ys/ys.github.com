@@ -12,7 +12,6 @@ Zach Holman from Github gave a really great talk about automation, processes and
 > Success can lead to less-glamorous problems, though.
 > As you grow, your team's development environment becomes really important.
 > How long does it take to clone, set up, and boot your apps?
-> Can your employees still be productive on an aging codebase?
-> How can you automate CI, hooks, and other setup for new projects? Is any of this fun anymore?
+> Is any of this fun anymore?
 
 You can find it there : [http://zachholman.com/talk/unsucking-your-teams-development-environment](http://zachholman.com/talk/unsucking-your-teams-development-environment)
