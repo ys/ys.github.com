@@ -125,12 +125,12 @@ big { font-size: 1.2em; }
 
 blockquote {
   $bq-margin: 1.2em;
-  font-style: italic;
+  font-weight: bold;
   position: relative;
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.5em;
   padding-left: 1em;
-  border-left: 4px solid rgba($text-color-light, .5);
+  border-left: 14px solid rgba($text-color-light, .5);
   cite {
     font-style: italic;
     a { color: $text-color-light !important; word-wrap: break-word; }
@@ -138,7 +138,7 @@ blockquote {
   }
   @media only screen and (min-width: 992px) {
     padding-left: 1.5em;
-    border-left-width: 4px;
+    border-left-width: 14px;
   }
 }
 
