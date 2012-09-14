@@ -1,12 +1,13 @@
+# encoding: utf-8
 # ----------------------- #
 #      Main Configs       #
 # ----------------------- #
 
-url: http://ys.github.com
-title: Develop and eat cupcakes
-subtitle: Ruby hacker and Internets citizen
+url: http://blog.yannick.io
+title: Yannick.io
+subtitle: I ♥ Ruby
 author: Yannick Schutz
-simple_search: http://google.com/search
+#simple_search: http://google.com/search
 description: "A blog about Ruby, Rails and many other things! even about food"
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")

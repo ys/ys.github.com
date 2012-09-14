@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-# Ruby hacker and web lover
+## Ruby hacker and web lover
 * Currently working at [belighted](http://www.belighted.com)
 * In love with ruby and light frameworks
 * Uses Rails all day long
