@@ -3,7 +3,7 @@ layout: post
 title: "It's not how good you are"
 date: 2012-09-15 10:34
 comments: true
-categories: books, self
+categories: books self
 ---
 
 I just read a great book about self motivation and how good you need to be!
