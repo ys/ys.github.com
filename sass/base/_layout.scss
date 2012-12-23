@@ -1,4 +1,4 @@
-$max-width: 676px !default;
+$max-width: 500px !default;
 
 // Padding used for layout margins
 $pad-min: 18px !default;
@@ -43,7 +43,6 @@ $header-padding-bottom: .75em !default;
 
 body {
   -webkit-text-size-adjust: none;
-  max-width: $max-width;
   position: relative;
   margin: 0 auto;
   > header, > nav, > footer, #content > article, #content > div > article, #content > div > section {
@@ -62,6 +61,9 @@ body {
       padding-left: $pad-wide;
       padding-right: $pad-wide;
     }
+  }
+  #main {
+    max-width: $max-width;
   }
   div.pagination {
     @extend .group;

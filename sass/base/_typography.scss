@@ -7,7 +7,7 @@ $header-title-font-family:  $sans !default;
 $header-subtitle-font-family: $heading-font-family !default;
 $nav-font-family: $heading-font-family !default;
 
-$h1:	2.2em !default;
+$h1:	1.2em !default;
 $h2:	1.5em !default;
 $h3:	1.3em !default;
 $h4:	1em !default;
@@ -24,13 +24,13 @@ $h6:	0.8em !default;
 .mono { font-family: $mono; }
 
 body > header h1 {
-  font-size: .875em !important;
+  font-size: .275em !important;
   font-family: $header-title-font-family;
   font-weight: normal;
   line-height: .6em;
 }
 body > header h2 {
-  font-size: 5.875em !important;
+  font-size: 1.875em !important;
   font-family: $header-subtitle-font-family;
 }
 

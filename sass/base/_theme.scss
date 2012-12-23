@@ -10,6 +10,7 @@ $link-color-active: $link-color-visited !default;
 
 // Main Section Colors
 $site-bg: white;
+$title-color: white;
 $main-bg: transparent !default;
 $page-bg: transparent !default;
 
@@ -77,13 +78,11 @@ a {
 
 html {
   background: $site-bg;
-  background-image: $bg-image;
   background-position: center center;
   @include background-size('cover');
   background-attachment: fixed;
 }
 body {
-  margin-top: 50px !important;
   @include border-radius(4px);
   background: $site-bg;
   > div {
