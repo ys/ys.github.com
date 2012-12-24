@@ -35,6 +35,11 @@ body > header {
       a , a:visited {
         color: white;
         text-decoration: none;
+        @include transition(0.3s);
+        &:hover{
+          color: $header-link-color;
+        }
+
 
       }
 

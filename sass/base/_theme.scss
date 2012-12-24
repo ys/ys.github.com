@@ -3,7 +3,7 @@ $bg-image: image-url('back.jpg');
 $img-border: #666;
 
 // Main Link Colors
-$link-color: darken(#F00, 10) !default;
+$link-color: rgb(10, 155, 71) !default;
 $link-color-hover: desaturate(darken($link-color, 30), 10) !default; // darken(#F00, 25) -- desaturate(darken($link-color, 40), 25)
 $link-color-visited: desaturate(lighten($link-color, 15), 60) !default;
 $link-color-active: $link-color-visited !default;
@@ -19,7 +19,7 @@ $header-border: none !default;
 $title-color: #aaa !default;
 $subtitle-color: #000 !default;
 $header-color: #111;
-$header-link-color: lighten($link-color, 10);
+$header-link-color: darken($link-color, 10);
 
 $text-color: #333 !default;
 $text-color-light: #888 !default;
