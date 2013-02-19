@@ -8,7 +8,7 @@ sidebar: false
     {% include header.html %}
     <nav role="navigation">{% include navigation.html %}</nav>
   </header>
-  <div id="picture-holder"></div>
+  <div id="picture-holder" {% if page.image  %} style="background-image: url({{ page.image }})"{% endif %}></div>
   <div id="main">
     <div id="content">
       {{ content | expand_urls: root_url }}

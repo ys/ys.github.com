@@ -4,8 +4,9 @@ title: "Christmas Eve"
 date: 2012-12-24 11:37
 comments: true
 categories: misc ruby
+image: http://cloud.yannick.io/image/2t0T1i3j0i2q/content
 ---
-It's Christmas Eve and I take a quick look back at 2012. 
+It's Christmas Eve and I take a quick look back at 2012.
 This year was awesome. It was full of challenges, learning and other great stuffs.
 
 You can take a look at [that checkthis poster](http://checkthis.com/2012-in-12-pictures) to have a quick overview of the year. But in a few words, full ruby day job (thanks to [belighted](http://belighted.com)), moving to Brussels, a fiancée and a lot of conferences.
@@ -20,7 +21,7 @@ I have my **wedding** to organize and more travels to do. That will be amazing a
 
 I need to go back to some conferences. That was awesome to meet all that guys from the community. The fun I had with those guys is just pure happiness.
 
-I will probably be at some of those: 
+I will probably be at some of those:
 
 * [Railsberry](http://railsberry.com/), the Rails conference not about Rails.
 * [Euruko](http://euruko2013.org/), the Ruby conference that organizers decided to organize the day before the votes.

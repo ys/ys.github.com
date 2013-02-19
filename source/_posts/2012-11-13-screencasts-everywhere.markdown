@@ -4,6 +4,7 @@ title: "screencasts everywhere"
 date: 2012-11-13 20:18
 comments: true
 categories: video ruby
+image: http://cloud.yannick.io/image/2d3L081L2Y3e/content
 ---
 I started watching new screencasts!
 Finished the codeschool and railscasts for the moment.

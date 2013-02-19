@@ -5,6 +5,7 @@ date: 2012-04-07 22:50
 comments: false
 sharing: true
 footer: true
+image: http://cloud.yannick.io/image/2q372g401m0U/content
 ---
 
 ## Ruby hacker and web lover

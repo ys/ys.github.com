@@ -4,6 +4,7 @@ title: "Sinatra Skeleton"
 date: 2012-07-28 19:04
 comments: true
 categories: sinatra ruby
+image: http://cloud.yannick.io/image/0Q2u1X1X062t/content
 ---
 Hello people!
 
@@ -18,7 +19,7 @@ Gems used: Pg (Database), ActiveRecord (Models), Slim (Views) and Rabl (Json)
 
 For the tests : Rspec, Rack-test, Factory_girl, Faker, Shoulda, Database_cleaner, Json_spec
 
-I added a few gems really useful like : 
+I added a few gems really useful like :
 
 - Shotgun (Auto reload project at changes)
 - Tux (sort of rails console)

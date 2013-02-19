@@ -4,6 +4,7 @@ title: "Unsucking your teams development environment"
 date: 2012-09-14 23:11
 comments: true
 categories: misc
+image: http://cloud.yannick.io/image/2Y15120o2Q3b/content
 ---
 Last week-end, I was at [Baruco](http://baruco.org). Really great time.
 Zach Holman from Github gave a really great talk about automation, processes and productivity.
