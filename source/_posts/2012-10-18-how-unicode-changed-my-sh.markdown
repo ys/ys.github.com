@@ -8,7 +8,7 @@ image: http://cloud.yannick.io/image/163P0j1k3L3f/content
 ---
 
 Hey look how I integrated UTF-8 to my zsh theme.
-{% codeblock theme Zsh lang:bash %}
+```bash
 PROMPT='%{$fg[red]%}‹$(rbenv version-name)› %{$fg[yellow]%}${PWD/#$HOME/~}  %{$reset_color%}'
 RPROMPT='$(git_prompt_info)'
 
@@ -17,7 +17,7 @@ ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}[ "
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} ]"
 ZSH_THEME_GIT_PROMPT_DIRTY=" %{$fg[red]%}%B☁%b%F{154}%f%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_CLEAN=" %{$fg[green]%}☀%F{154}"
-{% endcodeblock %}
+```
 
 The great part is of course the ☁ and the ☀ for my git status.
 If you don't use zsh, switch! [Old article from 2007 on why!](http://friedcpu.wordpress.com/2007/07/24/zsh-the-last-shell-youll-ever-need/)
