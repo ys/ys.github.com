@@ -2,8 +2,7 @@
 layout: post
 title: "Mongoid equivalent of none in ActiveRecord"
 date: 2013-05-15 18:23
-comments: true
-categories: mongoid rails
+categories: rails
 ---
 
 Have you ever had a scope that takes parameters that could be ```nil```?

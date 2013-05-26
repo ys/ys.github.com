@@ -2,8 +2,7 @@
 layout: post
 title: "4sq experiment"
 date: 2012-07-15 21:18
-comments: true
-categories: rails 4sq
+categories: rails
 image: http://cloud.yannick.io/image/2Z1r3y0G3D06/content
 ---
 

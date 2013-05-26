@@ -2,8 +2,7 @@
 layout: post
 title: "Ruby + Food = <3"
 date: 2013-02-20 00:34
-comments: true
-categories: misc ruby food
+categories: misc
 image: http://cloud.yannick.io/image/1z0l1P2F3Z1X/content
 ---
 

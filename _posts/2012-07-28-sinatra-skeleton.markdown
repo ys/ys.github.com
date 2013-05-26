@@ -2,8 +2,7 @@
 layout: post
 title: "Sinatra Skeleton"
 date: 2012-07-28 19:04
-comments: true
-categories: sinatra ruby
+categories: ruby
 image: http://cloud.yannick.io/image/0Q2u1X1X062t/content
 ---
 Hello people!

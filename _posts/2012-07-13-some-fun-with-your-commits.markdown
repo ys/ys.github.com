@@ -2,8 +2,7 @@
 layout: post
 title: "Some fun with your commits"
 date: 2012-07-13 23:42
-comments: true
-categories: fun git 
+categories: git
 ---
 
 This post helps you to take a picture with each commit you make

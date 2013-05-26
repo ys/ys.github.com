@@ -2,8 +2,7 @@
 layout: post
 title: "Christmas Eve"
 date: 2012-12-24 11:37
-comments: true
-categories: misc ruby
+categories: misc
 image: http://cloud.yannick.io/image/2t0T1i3j0i2q/content
 ---
 It's Christmas Eve and I take a quick look back at 2012.

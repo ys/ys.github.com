@@ -2,7 +2,6 @@
 layout: post
 title: "Unsucking your teams development environment"
 date: 2012-09-14 23:11
-comments: true
 categories: misc
 image: http://cloud.yannick.io/image/2Y15120o2Q3b/content
 ---
