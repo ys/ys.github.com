@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+
+
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+
+        <div class="container">
+          <div class="header">
+            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+            <div class=links>
+              <a class="fc-webicon small github" href="http://github.com/ys">github</a>
+              <a class="fc-webicon small twitter" href="http://twitter.com/yann_ck">twitter</a>
+              <a class="fc-webicon small mail" href="mailto:yannick.schutz@gmail.com">mail</a>
+            </div>
+          </div>
+          <div class=head-img {% if page.image  %} style="background-image: url({{page.image}})" {% else %} style="background-image: url({{site.url}}/assets/default.jpg)" {% endif %}></div>
+          <div class="site">
+
+                {{ content }}
+
+            <div class="footer">
+              <div class="contact">
+                <p>
+                  Yannick Schutz<br />
+                  Web developer
+                </p>
+              </div>
+              <div class="contact">
+                <p>
+                  <a href="http://github.com/ys/">github.com/ys</a><br />
+                  <a href="http://twitter.com/yann_ck/">twitter.com/yann_ck</a><br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /container -->
+
+    </body>
+</html>
