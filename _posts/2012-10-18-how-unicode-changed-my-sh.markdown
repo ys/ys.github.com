@@ -3,7 +3,7 @@ layout: post
 title: "how unicode changed my sh"
 date: 2012-10-18 08:56
 categories: shell
-image: http://cloud.yannick.io/image/163P0j1k3L3f/content
+image: http://cl.ly/image/163P0j1k3L3f/content
 ---
 
 Hey look how I integrated UTF-8 to my zsh theme.

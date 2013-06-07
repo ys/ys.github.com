@@ -3,7 +3,7 @@ layout: post
 title: "4sq experiment"
 date: 2012-07-15 21:18
 categories: rails
-image: http://cloud.yannick.io/image/2Z1r3y0G3D06/content
+image: http://cl.ly/image/2Z1r3y0G3D06/content
 ---
 
 I just added a [new experiment](http://coffi.yannick.io) I made with rails and the foursquare API.

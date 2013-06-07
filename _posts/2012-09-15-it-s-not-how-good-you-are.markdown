@@ -3,7 +3,7 @@ layout: post
 title: "It's not how good you are"
 date: 2012-09-15 10:34
 categories: books
-image: http://cloud.yannick.io/image/2r1k3G292O1H/content
+image: http://cl.ly/image/2r1k3G292O1H/content
 ---
 
 I just read a great book about self motivation and how good you need to be!

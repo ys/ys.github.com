@@ -3,7 +3,7 @@ layout: post
 title: "Christmas Eve"
 date: 2012-12-24 11:37
 categories: misc
-image: http://cloud.yannick.io/image/2t0T1i3j0i2q/content
+image: http://cl.ly/image/2t0T1i3j0i2q/content
 ---
 It's Christmas Eve and I take a quick look back at 2012.
 This year was awesome. It was full of challenges, learning and other great stuffs.

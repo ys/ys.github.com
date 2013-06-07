@@ -3,7 +3,7 @@ layout: post
 title: "Ruby + Food = <3"
 date: 2013-02-20 00:34
 categories: misc
-image: http://cloud.yannick.io/image/1z0l1P2F3Z1X/content
+image: http://cl.ly/image/1z0l1P2F3Z1X/content
 ---
 
 Just a short post about food, ruby and the belgian community.
