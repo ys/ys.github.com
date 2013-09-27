@@ -5,14 +5,14 @@ date: 2013-09-27 23:30:00 +0200
 categories: ruby
 ---
 
-As I start to use more and more Rspec, I discovered a pretty neat usage.
-Shared exampleas. They give me a way to generalize some conditions.
+As I start to use more and more Rspec, I discovered a pretty neat usage:
+Shared examples. They give me a way to generalize some conditions.
 It acts like concerns for my specs.
 
 I was the kind of guy that copy/paste some generic parts of specs about access to API.
 Access to admin interfaces and so on. Recopying parts testing filters.
 
-An example might be that all my admin controllers must be inacessible to regular users.
+An example might be that all my admin controllers must be unreachable to regular users.
 Instead of copy pasting my tests all over. I can write a shared_examples block in a support file.
 This one take a parameter for all actions in the controller we want to test.
 
@@ -30,11 +30,11 @@ shared_examples "an admin controller" do |actions|
 end
 {% endhighlight %}
 
-Before, I would just have copy/pasted the specify part as an it part in each action.
+Before, I would just have copied/pasted the specify part as an it part in each action.
 Lame, I know, but we all make mistakes and find solutions.
 
-How to use this shared example in a spec is as easy as the next block
-I just add all my actions in a hash, with the method and params needed.
+How to use this shared example in a spec is as easy as adding the next block
+to all my actions and specify them in a hash, with the method and params needed.
 And using that block in each controller spec instead of the whole shared example is far more readable.
 
 {% highlight ruby %}
@@ -49,6 +49,6 @@ describe WebAdmin::UsersController do
 end
 {% endhighlight %}
 
-This is one of the bright thing Rspec can do and that I started to use everywhere.
+This is one of the awesome things Rspec can do and that I started to use everywhere.
 Hope some of you didn't know about it and will also start using it.
 
