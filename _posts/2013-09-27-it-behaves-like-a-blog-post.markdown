@@ -6,7 +6,7 @@ categories: ruby
 ---
 
 As I start to use more and more Rspec, I discovered a pretty neat usage:
-Shared examples. They give me a way to generalize some conditions.
+Shared examples. They give me a way to generalize some specs.
 It acts like concerns for my specs.
 
 I was the kind of guy that copy/paste some generic parts of specs about access to API.
@@ -50,5 +50,5 @@ end
 {% endhighlight %}
 
 This is one of the awesome things Rspec can do and that I started to use everywhere.
-Hope some of you didn't know about it and will also start using it.
+I hope that some of you will find this tip helpful.
 
