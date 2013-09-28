@@ -17,8 +17,8 @@ Instead of copy pasting my tests all over. I can write a shared_examples block i
 This one take a parameter for all actions in the controller we want to test.
 
 {% highlight ruby %}
-shared_examples "an admin controller" do |actions|
-  context "as a regular user" do
+shared_examples 'an admin controller' do |actions|
+  context 'as a regular user' do
     actions.each_pair do |action, info|
       specify "I should be denied access to ##{action}" do
         controller.set_current_user(double(admin?: false, id: 1, authenticated?: true))
@@ -41,9 +41,9 @@ And using that block in each controller spec instead of the whole shared example
 require 'spec_helper'
 
 describe WebAdmin::UsersController do
-  it_behaves_like 'a web admin controller', {
+  it_behaves_like 'an admin controller', {
     index:   { verb: :get},
-    show:    { verb: :get, params: { id:'bob' }},
+    show:    { verb: :get, params: { id: 'bob' }},
     destroy: { verb: :delete, params: { id: 'bob' }},
   }
 end
