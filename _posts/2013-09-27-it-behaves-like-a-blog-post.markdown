@@ -40,7 +40,7 @@ And using that block in each controller spec instead of the whole shared example
 {% highlight ruby %}
 require 'spec_helper'
 
-describe WebAdmin::UsersController do
+describe Admin::UsersController do
   it_behaves_like 'an admin controller', {
     index:   { verb: :get},
     show:    { verb: :get, params: { id: 'bob' }},
