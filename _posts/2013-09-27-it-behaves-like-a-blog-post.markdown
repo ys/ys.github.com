@@ -22,7 +22,7 @@ shared_examples 'an admin controller' do |actions|
     actions.each_pair do |action, info|
       specify "I should be denied access to ##{action}" do
         controller.set_current_user(double(admin?: false, id: 1, authenticated?: true))
-        send(info[:verb], action, info[:params].merge({format: :json}))
+        send(info[:verb], action, info[:params].merge({ format: :json }))
         response.status.should be 401
       end
     end
@@ -42,7 +42,7 @@ require 'spec_helper'
 
 describe Admin::UsersController do
   it_behaves_like 'an admin controller', {
-    index:   { verb: :get},
+    index:   { verb: :get },
     show:    { verb: :get, params: { id: 'bob' }},
     destroy: { verb: :delete, params: { id: 'bob' }},
   }
