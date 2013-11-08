@@ -86,6 +86,11 @@ ul.posts span {
   text-transform: uppercase;
 }
 
+.header img.logo {
+  float: left;
+  height: 39px;
+}
+
 .header h1.title {
   float: left;
   display: inline-block;
@@ -220,3 +225,7 @@ ul.posts span {
 /* Twitter */
 .fc-webicon.twitter { background: url("/images/fc-webicon-twitter.svg"); }
 
+.twitter-follow-button {
+  float: right;
+  margin-top: 10px;
+}
