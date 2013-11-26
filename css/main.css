@@ -14,8 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  font: 18px Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
@@ -63,12 +62,11 @@ ul.posts span {
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
   text-align: left;
   width: 42em;
   max-width: 100%;
   margin: 3em auto 2em;
-  line-height: 1.5em;
+  line-height: 1.8em;
 }
 
 .header {
@@ -88,7 +86,7 @@ ul.posts span {
 
 .header img.logo {
   float: left;
-  height: 39px;
+  height: 50px;
 }
 
 .header h1.title {
@@ -156,6 +154,13 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
+.site > h2 {
+  text-align: center;
+}
+
+.site > .meta {
+  text-align: center;
+}
 /* standard */
 #post pre {
   border: 1px solid #ddd;
@@ -190,7 +195,7 @@ ul.posts span {
 
 .head-img {
   width: 100%;
-  height: 15em;
+  height: 4em;
   background-position: center;
 }
 
