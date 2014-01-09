@@ -32,3 +32,38 @@ task :publish => [:generate] do
 end
 
 task :default => :publish
+
+namespace :blog do
+
+ task :new, [:title] do |t, args|
+   today = Date.today.to_s
+   title = args[:title]
+   if title.nil? || title == ''
+     abort("\nPlease specify a title, eg:\n\nrake blog:new[\"title\"]\n\n")
+   end
+
+   slug = title.gsub(/[^a-z0-9\-_]+/i, '-').downcase
+   folder = File.join(File.dirname(__FILE__), '_posts')
+   filename = File.join(folder, [today, slug].join('-')) + '.markdown'
+
+   config = {
+     'layout' => 'large',
+     'title' => title,
+     'date' => today,
+     'categories' => '',
+     'background' => '#fff',
+     'font_color' => '#000'
+   }
+
+   if File.exist?(filename)
+     abort("File #{filename} already exists! Aborting.")
+   else
+     File.open(filename, 'w') do |file|
+       file << config.to_yaml
+       file << "---\n"
+       file << "\n\nPut the next part here\n\n"
+     end
+   end
+ end
+
+end

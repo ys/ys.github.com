@@ -22,13 +22,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'PT Sans Narrow', Arial, sans-serif;
   font-size: 100%; }
 
-h1 { font-size: 1.8em; margin-bottom: 1em; }
+h1 { font-size: 1.8em; margin-top: 0em; margin-bottom: 1em; }
 h2 { font-size: 1.8em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
+a         { color: #000; }
 a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a:visited { color: #000; }
 
 table {
   font-size: inherit;
@@ -52,7 +52,7 @@ ul.posts li {
 ul.posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+  font-size: 50%;
 }
 
 /*****************************************************************************/
@@ -233,4 +233,34 @@ ul.posts span {
 .twitter-follow-button {
   float: right;
   margin-top: 10px;
+}
+
+
+/*--------------------------------LARGE-------------------------*/
+
+.large h1 {
+  font-size: 6em;
+  line-height: 1.2em;
+  border-bottom: 10px solid;
+  margin-bottom: 0.5em;
+}
+.large .meta {
+  color: #555;
+}
+.large footer {
+  font-style: italic;
+  font-size: 120%;
+}
+.large #post {
+  font-size: 120%;
+}
+ol li {
+  margin-bottom: 0.4em;
+}
+.snowman {
+  position: absolute;
+  text-decoration: none;
+  top: 10px;
+  left: 10px;
+  font-size: 140%;
 }

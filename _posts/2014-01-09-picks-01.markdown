@@ -1,0 +1,12 @@
+---
+layout: large
+title: Picks 01
+date: '2014-01-09'
+background: "#CA2A56"
+font_color: "#FFF"
+---
+
+1. [Metriks](https://github.com/eric/metriks) > A thread-safe gem to instrument your Ruby. With reporters for graphite, librato and logs.
+2. [Papertrail](https://papertrailapp.com) > Logs done right with alerting, search and a great [CLI](https://github.com/papertrail/papertrail-cli)
+3. [Alfred Workflows](https://github.com/zenorocha/alfred-workflows) > A collection of great workflows for Alfred 2.
+4. [Arq](http://www.haystacksoftware.com/arq/) > Backup to S3 and Glacier, I started using it to backup my pictures.

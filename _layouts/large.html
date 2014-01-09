@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+        <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Feed">
+
+        <!-- syntax highlighting CSS -->
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/syntax.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+        <link rel="icon" type="image/png" href="/images/logo.png" />
+        <meta property="description" content="{% if page.description %}{{page.description}}{% else %}thoughts, code and some coffee{% endif %}" />
+        <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}Yannick Blog{% endif %}" />
+        <meta property="og:image" content="http://blog.yannick.io/images/logo.png" />
+        <style>
+          .large {
+            background-color: {% if page.background %}{{page.background}}{% else %}#fff{% endif %};
+            color: {% if page.font_color %}{{page.font_color}}{% else %}#000{% endif %};
+            border-bottom-color: {% if page.font_color %}{{page.font_color}}{% else %}#000{% endif %};
+          }
+          a, a:visited, a:hover {
+            color: {% if page.font_color %}{{page.font_color}}{% else %}#000{% endif %};
+          }
+        </style>
+
+    </head>
+    <body class='large'>
+        <a href='/' class='snowman'>☃</a>
+        <div class="container">
+          <div class="site">
+            <h1>{{ page.title }}</h1>
+            <div id='post'>
+              {{ content }}
+            </div>
+
+          </div>
+        </div> <!-- /container -->
+
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-33356575-2']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+           })();
+
+      </script>
+    </body>
+</html>
