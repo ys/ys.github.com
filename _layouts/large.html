@@ -8,7 +8,7 @@
         <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Feed">
 
         <!-- syntax highlighting CSS -->
-        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/normalize.css">
         <link rel="stylesheet" href="/css/syntax.css">
         <!-- Custom CSS -->
@@ -18,6 +18,7 @@
         <meta property="description" content="{% if page.description %}{{page.description}}{% else %}thoughts, code and some coffee{% endif %}" />
         <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}Yannick Blog{% endif %}" />
         <meta property="og:image" content="http://blog.yannick.io/images/logo.png" />
+        <meta property="created_at" content="{{ page.date | date_to_xmlschema}}">
         <style>
           .large {
             background-color: {% if page.background %}{{page.background}}{% else %}#fff{% endif %};
