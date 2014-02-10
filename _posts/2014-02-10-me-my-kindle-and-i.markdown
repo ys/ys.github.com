@@ -3,8 +3,8 @@ layout: large
 title: Me, My kindle & I
 date: '2014-02-10'
 categories: ''
-background: "#fff"
-font_color: "#000"
+background: "#FFF2DD"
+font_color: "#716161"
 ---
 
 In december, my amazing girlfriend offered me a kindle paperwhite. I wanted one for more than a year.
@@ -24,7 +24,7 @@ Since I got that device, I bought about ten technical books thanks to [pragprog]
 
 You can also easily add a workflow with [IFTTT](https://ifttt.com) and [Dropbox](http://dropbox.com). I have a [receipe](https://ifttt.com/recipes/139429) that watch a folder on dropbox and email each file I add there to my kindle. Having new pdfs and ebooks direct to my kindle has never been so easy. I’m also an heavy [instapaper](http://instapaper.com) user, And you can easily have a readable version of blog posts sent directly to the kindle, or all the unread articles bookmarked today sent in once.
 
-I love the format of the kindle it makes an amazing companion for technical books. Even code is really readable there. I hate page numbering in books. Don’t ask me why but I prefer nothing than 100 pages left to read. And kindle shows you multiple possibilities. Time left is the worst as I’m a bad english reader. 
+I love the format of the kindle it makes an amazing companion for technical books. Even code is really readable there. I hate page numbering in books. Don’t ask me why but I prefer nothing than 100 pages left to read. And kindle shows you multiple possibilities. Time left is the worst as I’m a bad english reader.
 
 The autonomy of the device is also quite great. Being able to read a few weeks without charging it is a must. You can of course adapt the luminosity. The interface is simple but yet practical. It’s easy to search an ebook on amazon and buying it with one click. This device is a must have for all folks that enjoy reading.
 
