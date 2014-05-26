@@ -15,4 +15,4 @@ After that, I worked for clients in a consultancy agency and in a startup, I und
 
 This is the reason I'm so happy to join the tools team at heroku. I'll be able to provide new blocks to those amazingly skilled developers. 
 
-**Coding is just playing with blocks.**
+**Coding is just having fun with blocks.**
