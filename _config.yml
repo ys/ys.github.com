@@ -1,2 +1,4 @@
-name: Yannick Schutz
-exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+name:        Yannick Schutz
+exclude:     ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+highlighter: pygments
+markdown:    kramdown
