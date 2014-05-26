@@ -16,9 +16,9 @@ The top ten of queries on [forked](http://forked.yannick.io) :
 5. [django/django](https://github.com/django/django)
 6. [jashkenas/backbone](https://github.com/jashkenas/backbone)
 7. [Inferis/ViewDeck](https://github.com/Inferis/ViewDeck)
-8. [joyent/node](https://github.com/joyent/node)
+8. [joyent/node](https://github.com/joyent/node)  
 9. [pieter/gitx](https://github.com/pieter/gitx)
-10.[tobi/delayed_job](https://github.com/tobi/delayed_job)
+10. [tobi/delayed_job](https://github.com/tobi/delayed_job)
 
 A good diversity of languages and projects.
 
