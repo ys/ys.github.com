@@ -19,7 +19,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oswald', Arial, sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 100%; }
 
 h1 { font-size: 1.8em; margin-top: 0em; margin-bottom: 1em; }
@@ -81,7 +81,6 @@ ul.posts span {
 .header a {
   font-weight: bold;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .header img.logo {
@@ -97,8 +96,8 @@ ul.posts span {
 }
 
 .header .links {
+  font-size: 80%;
   float: right;
-  font-size: 60%;
 }
 
 .header h1.title a {
