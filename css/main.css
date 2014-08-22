@@ -1,4 +1,4 @@
-/*****************************************************************************/
+h1/*****************************************************************************/
 /*
 /* Common
 /*
@@ -14,15 +14,16 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 18px Helvetica, Arial, sans-serif;
+  font: Helvetica, Arial, sans-serif;
   text-align: center;
+  border-top: 3px solid #79589F;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
   font-size: 100%; }
 
-h1 { font-size: 1.8em; margin-top: 0em; margin-bottom: 1em; }
+h1 { font-size: 1.8em; }
 h2 { font-size: 1.8em; }
 p { margin: 1em 0; }
 
@@ -72,14 +73,16 @@ ul.posts span {
 .header {
   width: 42em;
   max-width: 100%;
-  font-size: 115%;
   margin: 2em auto 2em;
-  text-align: left;
-  height: 1em;
+}
+.header p.icon.title {
+  text-align: center;
+  color: #79589F;
+  font-size: 5em;
+  margin-bottom: 0em;
 }
 
 .header a {
-  font-weight: bold;
   text-decoration: none;
 }
 
@@ -89,10 +92,8 @@ ul.posts span {
 }
 
 .header h1.title {
-  float: left;
-  display: inline-block;
-  font-size: 2em;
-  margin-bottom: 0em;
+  text-align: center;
+  font-size: 3em;
 }
 
 .header .links {
@@ -101,6 +102,7 @@ ul.posts span {
 }
 
 .header h1.title a {
+  font-weight: normal;
   color: #666;
 }
 
