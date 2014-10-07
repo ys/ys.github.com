@@ -225,12 +225,21 @@ ul.posts h3 {
 }
 
 /*--------------------------------LARGE-------------------------*/
+body.large {
+  font: 16px 'Lato', serif;
+  text-align: center;
+}
 
 .large h1 {
+  font-family: 'Oswald', serif;
   font-size: 6em;
   line-height: 1.2em;
   border-bottom: 10px solid;
   margin-bottom: 0.5em;
+}
+
+.large h2, .large h3, .large h4 {
+  font-family: 'Lato', sans-serif;
 }
 .large .meta {
   color: #555;

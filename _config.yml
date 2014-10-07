@@ -3,3 +3,4 @@ exclude:     ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 highlighter: pygments
 markdown:    kramdown
 paginate:    5
+permalink: /:title
