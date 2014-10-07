@@ -17,7 +17,7 @@ Is it about working for a foreign company or the company itself? I don't know. A
 
 It was as easy as going to [jobs.heroku.com][3] and finding the exciting job opportunity that was a fit for me. Yes, it was that simple.
 
-Ok, there was a bit more than that. I was a client of Heroku through personal projects and [frontback][4], where I was working. I also was developing things using their API. And turns out I was using beta features in a project and some Herokais liked it.
+Ok, there was a bit more than that. I was a client of Heroku through personal projects and [frontback][4], where I was working. I also was developing things using their API. And turns out I was using beta features in a project and some Herokais liked it. I also met some Herokais in various conferences.
 
 But in the end, the only thing that matters here is that I applied. **And you can too**.
 
