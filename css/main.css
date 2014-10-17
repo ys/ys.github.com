@@ -251,6 +251,11 @@ body.large {
 .large #post {
   font-size: 120%;
 }
+
+.large img {
+  max-width: 100%;
+}
+
 ol li {
   margin-bottom: 0.4em;
 }
