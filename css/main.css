@@ -45,6 +45,7 @@ table {
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
+  padding-left: 0;
 }
 
 ul.posts>li {
@@ -81,7 +82,7 @@ ul.posts h3 {
 
 .site {
   text-align: left;
-  width: 42em;
+  width: 660px;
   max-width: 100%;
   margin: 3em auto 2em;
   line-height: 1.8em;
@@ -228,7 +229,7 @@ ul.posts h3 {
 
 /*--------------------------------LARGE-------------------------*/
 body.large {
-  font: 16px arial, sans-serif;
+  font: 20px 'Source Sans Pro', arial, sans-serif;
   text-align: center;
 }
 
@@ -237,7 +238,7 @@ body.large {
   font-size: 3em;
   text-transform: uppercase;
   line-height: 1.2em;
-  border-bottom: 10px solid;
+  border-bottom: 4px solid;
   margin-bottom: 0.5em;
 }
 .large h2, .large h3, .large h4 {
@@ -253,7 +254,6 @@ body.large {
 }
 
 .large #post {
-  font-size: 120%;
 }
 
 .large img {

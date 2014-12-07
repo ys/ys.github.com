@@ -3,7 +3,7 @@ layout: large
 title: The zen of me
 date: '2014-10-18'
 categories: ''
-background: "#000"
+background: "#333"
 font_color: "#FFF"
 excerpt: "A few principles I tend to follow"
 ---
